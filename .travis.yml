@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.5"
+install:
+  - pip install flake8
+  - pip install autopep8
+  - pip install django
+script:
+  - python -m compileall ./
