@@ -14,11 +14,11 @@ class NewVisitorTest(unittest.TestCase):
 		self.browser.get('http://localhost:8000')
 
 		# She notices the page title and header mention to-do lists
-		self.assertIn('To-do',self.browser.tittle)
+		self.assertIn('To-do',self.browser.title)
 		self.fail('Finish the test!')
 
 		# She is invited to enter a to-do item straight away
 		# [...rest of comments as before]
 
 if __name__ == '__main__':
-	unittes.main(warnings='ignore')
+	unittest.main(warnings='ignore')
