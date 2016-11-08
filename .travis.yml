@@ -7,3 +7,4 @@ install:
   - pip install django
 script:
   - python -m compileall ./
+  - python manage.py test
